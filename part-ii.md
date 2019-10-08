@@ -1,20 +1,15 @@
-# Part II: Adding APIs
+# Part II: Adding API
 
 In this portion of the lab, your stock tracking app will be communicating with
-two APIs:
+the following API:
 
-1. [GA Stocks API](https://ga-stocks.herokuapp.com/stocks). This will be used
-   store stocks the user wants to track.
 1. [IEX Trading](https://iextrading.com/developer/docs/)
 
-Start with the GA Stocks API. Once you have that working, move on to IEX
-Trading.
 
 ## 1. Dashboard (`/stocks`)
 
-Instead of listing the hard-coded stocks, this page should retrieve all stocks
-from the API (i.e., `https://ga-stocks.herokuapp.com/stocks`) and display them
-on the page.
+Similar to Part I, this page should retrieve all stocks from `/data/stock-data.json`
+and display them on the page.
 
 ## 2. Stock (`/stocks/:symbol`)
 
