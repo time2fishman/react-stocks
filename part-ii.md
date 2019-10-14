@@ -13,9 +13,13 @@ and display them on the page.
 
 ## 2. Stock (`/stocks/:symbol`)
 
-The stock information beyond name and symbol (e.g., `Current Price`, `Change`)
-should no longer be pulled from hard-coded data. Instead, this information
-should be pulled from [IEX Trading](https://iextrading.com/developer/docs/).
+Let's remove the hard-coded data. Instead, we should pull some information from [IEX Trading](https://iextrading.com/developer/docs/) on each stock. Specifically, we'd like to publish the stock's 
+last sale price and security type on this page.
+
+Take a look at this endpoint as an example and study what data come back from this API:
+https://api.iextrading.com/1.0/tops?symbols=SNAP
+
+
 
 ## Bonus: Axios
 
