@@ -22,8 +22,6 @@ broken down into two parts:
 1. Install dependencies.
 1. Fulfill the listed requirements.
 
-Please turn in your submission by the deadline on your cohort calendar.
-
 ## Requirements
 
 ### Part I: [React Router](part-i.md)
