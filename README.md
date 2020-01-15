@@ -32,7 +32,7 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 ## Resources
 
-- [React Router Lesson Plan](https://git.generalassemb.ly/ga-wdi-lessons/react-router)
+- [React Router Lesson Plan](https://git.generalassemb.ly/seir-129/react-router)
 - [`<Route render={ ... } />`](https://reacttraining.com/react-router/web/api/Route/render-func)
   vs
   [`<Route component={ ... } />`](https://reacttraining.com/react-router/web/api/Route/component)
