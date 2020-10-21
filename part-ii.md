@@ -3,7 +3,9 @@
 In this portion of the lab, your stock tracking app will be communicating with
 the following API:
 
-1. [IEX Trading](https://iextrading.com/developer/docs/)
+[IEX Cloud](https://iexcloud.io/)
+
+Register for an API and verify your email to receive your API token
 
 
 ## 1. Dashboard (`/stocks`)
@@ -17,7 +19,7 @@ Let's remove the hard-coded data. Instead, we should pull some information from 
 last sale price and security type on this page.
 
 Take a look at this endpoint as an example and study what data come back from this API:
-https://api.iextrading.com/1.0/tops?symbols=SNAP
+https://cloud.iexapis.com/stable/stock/SNAP/quote?token=YOUR_TOKEN_HERE
 
 
 
