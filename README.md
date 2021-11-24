@@ -31,7 +31,7 @@ broken down into two parts:
 ## Resources
 
 - [React Router Lesson Plan](../../../react-router)
-- [`React Router Documentation`](https://reactrouter.com/docs/en/v6)
+- [React Router Documentation](https://reactrouter.com/docs/en/v6)
 
 ## Plagiarism
 
