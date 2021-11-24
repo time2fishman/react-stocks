@@ -30,10 +30,8 @@ broken down into two parts:
 
 ## Resources
 
-- [React Router Lesson Plan](https://git.generalassemb.ly/seir-323/react-router)
-- [`<Route render={ ... } />`](https://reacttraining.com/react-router/web/api/Route/render-func)
-  vs
-  [`<Route component={ ... } />`](https://reacttraining.com/react-router/web/api/Route/component)
+- [React Router Lesson Plan](../../../react-router)
+- [`React Router Documentation`](https://reactrouter.com/docs/en/v6)
 
 ## Plagiarism
 
