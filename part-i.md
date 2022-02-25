@@ -1,9 +1,7 @@
 # Part I: React Router
 
-This version of the application should use hard-coded stocks data, which you can
-find in [`/data/stock-data.json`](https://git.generalassemb.ly/dc-wdi-react-redux/react-router-lab/blob/master/src/data/stock-data.json). Pass this data into
-the `<Dashboard />` and `<StocksDetails />` components (i.e. follow [Thinking in
-React](https://reactjs.org/docs/thinking-in-react.html))
+This version of the application should use hard-coded stocks data in the `src/data` folder. Pass this data into
+the `<Dashboard />` and `<StocksDetails />` components (i.e. follow [Thinking in React](https://reactjs.org/docs/thinking-in-react.html))
 
 Your stock tracking app should have the following features:
 
