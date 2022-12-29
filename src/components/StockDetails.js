@@ -1,8 +1,10 @@
 import React from 'react';
 
-const StockDetails = ({ stockData }) => {
+const StockDetails = ({ stockData, clickedStock }) => {
+    // console.log(clickedStock)
     return (
-        <div>
+        <div id='stock-details-container'>
+            <p>{clickedStock.name}</p>
             
         </div>
     );
