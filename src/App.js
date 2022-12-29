@@ -5,19 +5,12 @@ import StockDetails from "./components/StockDetails";
 import About from "./components/About";
 import stockData from "./data/stock-data.json";
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div id="app-container">
-      <nav id="nav-container">
-        <h1>React Stocks</h1>
-        <Link to="/stocks">
-          <h2>Home</h2>
-        </Link>
-        <Link to="about">
-          <h2>About</h2>
-        </Link>
-      </nav>
+      <Navbar />
       <div>
         <Routes>
           <Route path="/stocks" element={<Dashboard stockData={stockData} />} />
