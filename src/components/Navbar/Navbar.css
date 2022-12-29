@@ -5,11 +5,16 @@
     margin-bottom: 1rem;
 }
 
-#nav-links {
+#nav-link-container {
     display: flex;
     justify-content: flex-end;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: green;
+}
+
 .about-heading {
-    margin-left: 5rem;
+    margin-left: 3rem;
 }

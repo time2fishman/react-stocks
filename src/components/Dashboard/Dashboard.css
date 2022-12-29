@@ -1,0 +1,13 @@
+#dashboard-container {
+  margin: 1rem;
+  line-height: 1.5;
+}
+
+.stock {
+  text-decoration: none;
+  color: Black
+}
+
+.dashboard-stock-symbol {
+  color: green;
+}
